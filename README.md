@@ -1,21 +1,39 @@
-# 510_lab5
+# 510_lab6
 
-# this is a lab about learning frontend development
+## Overview
 
-# Finally I achieve a chatbox that can let architects to get inspiration during their ideation design stage.Basing on current outcome, I still need to learn more about RAG and knowledge graph part, which can build a better visualized interface for architects.
+This lab is about learning frontend development. The project achieves a chatbox that allows architects to get inspiration during their ideation design stage. To further improve, you need to learn more about Retrieval-Augmented Generation (RAG) and knowledge graphs to build a better visualized interface for architects.
 
-Getting Started
+## Getting Started
 
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+1. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Some debug experiences - 1.gitclone process
+## Debugging Experiences
 
-Connecting local git and remote githut repository everytime encounter some similar problem.
-Then, trying to polish the process:
-1.Create a new repository on your github with README.md
-2.Git clone
-3.Create app.py, new stuff on vs code, then push them to repository to check how does it wrok
+### 1. Git Clone Process
 
-## excalidraw.com
+Connecting a local git repository to a remote GitHub repository often encounters similar problems. Here’s an improved process:
+
+1. Create a new repository on GitHub with a `README.md`.
+2. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+3. Create `app.py` and new files in VS Code, then push them to the repository to check how it works:
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+
+## Useful Resources
+
+- [Excalidraw](https://excalidraw.com)
